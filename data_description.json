@@ -1,0 +1,33 @@
+{
+  "dataset_name": "United States Primary Education Enrollment and Per Capita GDP (2001-2020)",
+  "country": "United States",
+  "country_code": "USA",
+  "time_period": "2001-2020",
+  "attributes": [
+    {
+      "column_name": "Country Name",
+      "data_type": "String",
+      "description": "Name of the country ('United States')."
+    },
+    {
+      "column_name": "Country Code",
+      "data_type": "String",
+      "description": "3-letter ISO country code ('USA')."
+    },
+    {
+      "column_name": "Year",
+      "data_type": "Integer",
+      "description": "The year of observation ranging from 2001 to 2020."
+    },
+    {
+      "column_name": "Primary Enrollment",
+      "data_type": "Float/Integer",
+      "description": "Total primary education enrollment count for the United States in the given year."
+    },
+    {
+      "column_name": "GDP Per Capita",
+      "data_type": "Float",
+      "description": "Gross Domestic Product per capita expressed in current US dollars ($)."
+    }
+  ]
+}
